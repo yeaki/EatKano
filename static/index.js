@@ -441,9 +441,9 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
+        if (cps <= 5) return '哈哈哈哈哈哈哈哈？';
+        if (cps <= 8) return '鸭鸭喜欢你';
+        if (cps <= 10)  return '鸭鸭说太强了';
         if (cps <= 15) return '您';
         return '人？';
     }
